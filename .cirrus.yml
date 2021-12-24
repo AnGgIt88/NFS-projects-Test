@@ -4,7 +4,7 @@ env:
     TG_CHAT_ID: "ENCRYPTED[ea74b5030a1f5738ef3c505ed891a207b00d8a371d34055998510dbf33b48f31c4aaabc0fc129f7ccebf0366df89dd7e]"
     CIRRUS_CLONE_DEPTH: 1
     CIRRUS_WORKING_DIR: "/tmp"
-
+ 
 task:
   name: "Setting Up, Syncing, Building and Uploading..."
   timeout_in: 3h
