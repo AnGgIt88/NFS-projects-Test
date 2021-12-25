@@ -12,7 +12,7 @@ sudo ln -sf /usr/bin/python3 /usr/bin/python
 git config --global user.name "NFS86"
 git config --global user.email "jarbull86@gmail.com"
 mkdir -p /tmp/ccache
-rclone copy anggitjav:Spark/ccache.tar.gz /tmp -P
+rclone copy octavios:/home/frs/project/ccache/Octavi/ccache.tar.gz /tmp -P
 cd /tmp
 time tar xf ccache.tar.gz
 cd /tmp
