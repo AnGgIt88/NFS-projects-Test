@@ -15,7 +15,7 @@ export TZ=Asia/Jakarta
 export BUILD_USERNAME=finix
 export BUILD_HOSTNAME=rosy
 export WITH_GAPPS=false
-brunch rosy -j20 &
+brunch rosy
 sleep 90m
 kill %1
 ccache -s
